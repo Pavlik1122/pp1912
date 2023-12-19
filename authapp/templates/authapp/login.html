@@ -1,0 +1,10 @@
+{% extends 'mainapp/base.html' %}
+{% load static %}
+{% block content %}
+    <h3>Авторизация</h3>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <a style="text-decoration: none; color: black" href="{% url 'authapp:login' %}"><button class="button_cards2">Войти</button></a>
+    </form>
+{% endblock %}

@@ -1,0 +1,288 @@
+.main_block {
+    background-image: url('../img/main.png');
+    width: 1920px;
+    height: 980px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_block2 {
+    width: 1920px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main_block_base {
+    background: #151515;
+    width: 1920px;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main_text {
+    color: white;
+    font-size: 22px;
+    font-family: "Inter";
+    font-weight: bolder;
+}
+
+
+.centre {
+    margin-top: 10px;
+    width: 1200px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    text-decoration-line: none;
+}
+
+.preview {
+    margin-top: -470px;
+    width: 1920px;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.preview_text {
+    font-size: 80px;
+    color: white;
+    font-family: "Inter";
+    font-weight: bolder;
+}
+
+.name {
+    font-weight: bolder;
+}
+
+
+.preview_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    height: 60px;
+    color: white;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 22px;
+    line-height: 37px;
+    cursor: pointer;
+}
+
+.preview_EKB {
+    margin-top: -185px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons {
+    width: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.why {
+    margin-top: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.block4 {
+    margin-top: 55px;
+    width: 1500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.container {
+    max-width: none;
+}
+
+.block3 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.with {
+    color: black;
+    font-family: "Inter";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.block5 {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    margin-top: 80px;
+    background: var(--Black, #151515);
+    width: 1920px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer_text {
+    width: 800px;
+    color: var(--white, #FFF);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: lighter;
+    line-height: normal;
+}
+
+.footer_text2 {
+    color: var(--white, #FFF);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.footer_block {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 600px;
+}
+
+.cards2 {
+    margin-bottom: 20px;
+    width: 270px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid var(--blue, #06F);
+}
+
+.card_text_price {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+.card-title-name {
+    color: var(--Black, #151515);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.button_cards {
+    width: 120px;
+    height: 30px;
+    border: 1px solid var(--blue, #06F);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.Contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-title {
+    font-weight: 700;
+}
+
+.inputs1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.input1 {
+    padding-left: 15px;
+    border-color: #0066FF;
+    margin-right: 35px;
+    width: 270px;
+    height: 57px;
+}
+
+.input2 {
+    padding-left: 15px;
+    border-color: #0066FF;
+    height: 291px;
+    width: 575px;
+}
+
+.contact-btn {
+    border: none;
+    width: 184px;
+    height: 47px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.form-example {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button_cards2 {
+    margin-bottom: 377px;
+    width: 120px;
+    height: 30px;
+    border: 1px solid var(--blue, #06F);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.button_cards3 {
+    width: 120px;
+    height: 30px;
+    border: 1px solid var(--blue, #06F);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+

@@ -1,0 +1,18 @@
+{% extends 'mainapp/base.html' %}
+{% load static %}
+{% block content %}
+    <h1 class="d-flex justify-content-center align-items-center m-5">Выбери свой автомобиль</h1>
+    <div class="container">
+        <div class="cards2">
+            <img src="{{ cars.img.url }}">
+            <h5 class="card-title-name">{{ cars.name|capfirst }}</h5>
+            <p class="card_text_price">Начиная с: {{ cars.price }}$</p>
+            {% if user.is_authenticated %}
+                <a href="#" class="button_cards" style="color:black; text-decoration:none">В избранное</a>
+            {% else %}
+                <a href="#"  style="color:black; text-decoration:none" class="button_cards">Приобрести</a>
+            {% endif %}
+        </div>
+    </div>
+    </div>
+{% endblock %}

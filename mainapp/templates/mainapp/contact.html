@@ -1,0 +1,26 @@
+{% extends 'mainapp/base.html' %}
+{% load static %}
+{% block content %}
+    <div class="Contact">
+        <h1 class="contact-title m-3">Связаться с нами</h1>
+        <p  class="m-2" style="font-weight: 700">Не стесняйтесь обращаться к нам с вопросами, потенциальными партнерствами или
+            запросами СМИ</p>
+
+        <form action="" method="get" class="contact-form">
+            <div class="inputs1">
+                <input class="input1" type="text" name="name" id="name" placeholder="Имя" required/>
+                <input class="input1" type="email" name="email" id="email" placeholder="E-mail" required/>
+            </div>
+            <div class="inputt2">
+                <input class="input2" type="text" name="text" id="text" placeholder="Ваше сообщение" required/>
+            </div>
+            <div class="form-example">
+                <input class="contact-btn" type="submit" value="Отправить"/>
+            </div>
+        </form>
+
+    </div>
+    <div class="d-flex justify-content-center align-items-center m-5">
+        <img src="{% static 'img/news.png' %}" alt="">
+    </div>
+{% endblock %}
